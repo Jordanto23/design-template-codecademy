@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    /* black */
+    --deep-blue: #0A59F5;
+    /* deep-blue*/
+    --ocean: #0494DB;
+    /* ocean */
+    --baby: #06F3F4;
+    /* baby */
+}
+
+
+/* header  */
+header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+
+/* color section */
+.color-container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.color-container h2 {
+    padding-top: 20px;
+
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    display: inline-block;
+    
+    margin: 5px 5px;
+}
+.hex{
+    padding-top: 60px;
+    color: white;
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.deep-blue {
+    background-color: var(--deep-blue);
+
+
+}
+
+
+.ocean {
+    background-color: var(--ocean);
+
+}
+
+.baby {
+    background-color: var(--baby);
+}
+
+ /* Font section  */
+.font-header{
+    text-align: center;
+}
+
+.font-container{
+    border: 1px solid black;
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;  
+    text-align: center;
+    gap: 40px;
+  
+}
+.roboto-block{
+    font-family: "roboto";
+}
+
+.Oswald-block{
+    font-family: "oswald";
+}
+
+.Merriweather-block{
+    font-family: "merriweather";
+
+}
+
+.Lora-block{
+    font-family: "lora";
+
+}
+
+.bold{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.regular{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.light{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.styles-header{
+    text-align: center;
+}
+
+
+
+.text-container{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px auto;
+    align-content: center;
+    justify-content: center;  
+}
+
+.style1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.style2{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.style3{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+ul{
+    list-style-position: inside; 
+    margin: 10px;
+}
